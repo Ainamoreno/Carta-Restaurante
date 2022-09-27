@@ -1,0 +1,17 @@
+#img-logo {
+    width: 10em;
+}
+
+#div-entrantes {
+    border-bottom: 1px solid;
+    font-size: 2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fila-entrantes1 {
+    margin-top: 2em;
+}
+
+i{
+    margin-right: 0.5em;
+}
