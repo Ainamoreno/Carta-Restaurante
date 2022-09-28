@@ -29,13 +29,21 @@
 
 /* Estilos img */
 
+.img-1 {
+    margin-left: 8em;
+}
+
 .img-2 {
-    width: 80em;
+    width: 94em;
+}
+
+.img-3 {
+    margin-left: 5em;
 }
 
 #img-logo {
     border: 2px solid;
-    width: 20em;
+    width: 30em;
 }
 
 /* Estilos fondos y div-fondo */
@@ -67,10 +75,10 @@
 }
 
 .div3-fondo {
-    display: flex;
-    justify-content: start;
-    align-items: flex-start;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     line-height: 2.5em;
     font-size: 1.5em;
     font-family:Arial, Helvetica, sans-serif;
