@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,81 +13,77 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/menu.css">
     <script src="https://kit.fontawesome.com/6da7aeac50.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- Header de la página -->
     <div class="container-fluid">
-        <!-- Header de la página -->
+    <header>
+        <ul class="nav fixed-top div-header">
+            <li class="nav-item">
+                <a class="nav-link active item-navbar" aria-current="page" href="../index.html">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link item-navbar" href="./pages/menu.html">Carta</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle item-navbar" data-bs-toggle="dropdown" href="./pages/contact.html"
+                    role="button" aria-expanded="false">Ubicaciones y contacto</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
 
-        <div class="container">
-            <div class="row">
-                <div class="col d-flex align-items-center">
-                    <img id="img-logo" src="../img/logo.jpg" alt="">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">¿Quiénes somos?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/menu.html">Carta</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="../pages/contact.html"
-                                role="button" aria-expanded="false">Ubicaciones y contacto</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Main de la página -->
-        <div class="container">
+    <!-- Main de la página -->
+        <div class="container-fluid div-main">
             <div class="row">
                 <div class="col">
                     <div id="div-entrantes"><i class="fa-solid fa-bowl-food"></i>Entrantes</div>
                 </div>
             </div>
+            <div>
+
+            </div>
             <div class="row fila-entrantes1">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/sobrasada.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p>Nombre</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                                <p>Precio</p>
+                            <p class="nombre-plato">Sobrasada vegana</p>
+                            <p class="card-text">Con ingredientes naturales y 100% vegetales, acompañada con palitos
+                                crujientes</p>
+                            <p class="precio-plato">5,95€</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato " style="width: 18rem;">
                         <img src="../img/hummus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p>Nombre</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                                <p>Precio</p>
+                            <p class="nombre-plato">Hummus tradicional</p>
+                            <p class="card-text">Auténtico hummus de garbanzos acompañado de zanahoria y pan.</p>
+                            <p class="precio-plato">5,95€</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/quesovegano.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p>Nombre</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                                <p>Precio</p>
+                            <p class="nombre-plato">Queso vegano</p>
+                            <p class="card-text">Cremoso queso vegano con crackers artesanos.</p>
+                            <p class="precio-plato">5,95€</p>
                         </div>
                     </div>
                 </div>
@@ -101,35 +96,34 @@
             </div>
             <div class="row fila-entrantes1">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../img/sobrasada.jpg" class="card-img-top" alt="...">
+                    <div class="card tarj-plato" style="width: 18rem;">
+                        <img src="../img/fondo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p>Nombre</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                                <p>Precio</p>
+                            <p class="nombre-plato">Empanadillas vegetales</p>
+                            <p class="card-text">Empanadillas de verduras.</p>
+                            <p>7,95€</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../img/hummus.jpg" class="card-img-top" alt="...">
+                    <div class="card tarj-plato" style="width: 18rem;">
+                        <img src="../img/fondo1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p>Nombre</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                                <p>Precio</p>
+                            <p class="nombre-plato">Bowl</p>
+                            <p class="card-text">Bowl con heura, aguacate, arroz, garbanzos, edamame, zanahoria y
+                                pepino. Acompañado con salsa Roso.</p>
+                            <p class="precio-plato">10,95€</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/quesovegano.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>Nombre</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                                <p>Precio</p>
+                            <p>Precio</p>
                         </div>
                     </div>
                 </div>
@@ -142,35 +136,34 @@
             </div>
             <div class="row fila-entrantes1">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="../img/sobrasada.jpg" class="card-img-top" alt="...">
+                    <div class="card tarj-plato" style="width: 18rem;">
+                        <img src="../img/burger.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <p>Nombre</p>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                                <p>Precio</p>
+                            <p class="nombre-plato">Burger vegetal</p>
+                            <p class="card-text">Hamburgesa de proteína vegetal, acompañada de patatas al horno.</p>
+                            <p>10,95€</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/hummus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>Nombre</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                                <p>Precio</p>
+                            <p>Precio</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/quesovegano.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>Nombre</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                                <p>Precio</p>
+                            <p>Precio</p>
                         </div>
                     </div>
                 </div>
@@ -183,39 +176,62 @@
             </div>
             <div class="row fila-entrantes1">
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/sobrasada.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>Nombre</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                                <p>Precio</p>
+                            <p>Precio</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/hummus.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>Nombre</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                                <p>Precio</p>
+                            <p>Precio</p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card tarj-plato" style="width: 18rem;">
                         <img src="../img/quesovegano.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p>Nombre</p>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
-                                <p>Precio</p>
+                            <p>Precio</p>
                         </div>
                     </div>
                 </div>
 
+            </div>
+        </div>
+
+        <!-- Footer de la página -->
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                                <svg class="bi" width="30" height="24">
+                                    <use xlink:href="#bootstrap"></use>
+                                </svg>
+                            </a>
+                            <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+                        </div>
+                        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                            <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        </ul>
+                    </footer>
+                </div>
             </div>
         </div>
     </div>

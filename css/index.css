@@ -1,10 +1,18 @@
 .div-global {
-    margin: 2em;
+ margin: 15px;
+}
+
+.div-logo {
+    margin: 5em;
 }
 
 .div-header {
     padding: 1em;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.div-header:hover {
+    background-color: white;
 }
 
 .div1-main, .div2-main, .div3-main {
@@ -14,14 +22,19 @@
     margin-bottom: 1.5em;
 }
 
+.div1-main, .div3-main {
+    background-color: rgb(98, 150, 73);
+}
+
+
 /* Estilos img */
 
 .img-2 {
     width: 80em;
 }
 
-
 #img-logo {
+    border: 2px solid;
     width: 20em;
 }
 
@@ -54,10 +67,9 @@
 }
 
 .div3-fondo {
-    background-color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
     flex-direction: column;
     line-height: 2.5em;
     font-size: 1.5em;
