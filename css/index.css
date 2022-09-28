@@ -1,13 +1,51 @@
-#img-logo {
-    width: 10em;
+.div-global {
+    margin: 2em;
 }
+
+.div-header {
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.div1-main, .div2-main, .div3-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+/* Estilos img */
+
+.img-2 {
+    width: 80em;
+}
+
+
+#img-logo {
+    width: 20em;
+}
+
+/* Estilos fondos y div-fondo */
 
 #fondo1 {
     width: 70rem;
 }
+.div-fondo {
+    position: relative;
+}
 
-.div-fondo1-1 {
+.div1-fondo {
     display: flex;
+    align-items: center;
+    line-height: 2.5em;
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.div2-fondo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
     align-items: center;
     height: 35rem;
     font-size:3em;
@@ -15,21 +53,32 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.div-fondo1-2 {
+.div3-fondo {
+    background-color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     line-height: 2.5em;
     font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.div-fondo1-3 {
-    display: flex;
-    flex-direction: column;
-    line-height: 2em;
-    font-size: 1.5em;
+.parrafo1 {
+    color:  black;
 }
 
 i{
     margin-right: 0.5em;
     color: black;
+}
+
+.item-navbar{
+    color: black;
+}
+
+.item-navbar:hover {
+    border-bottom: 1px solid;
+    color: black;
+
 }
