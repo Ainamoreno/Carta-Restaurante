@@ -14,16 +14,16 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" media="(max-width: 1200px)" href="./css/1200-index.css">
+    <!-- <link rel="stylesheet" media="(max-width: 1200px)" href="./css/1200-index.css"> -->
     <!-- <link rel="stylesheet" media="(max-width: 990px)" href="./css/700-index.css"> -->
     <script src="https://kit.fontawesome.com/6da7aeac50.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Header de la página -->
-    <header>
-        <ul class="nav fixed-top div-header">
-            <li class="nav-item">
+    <div>
+        <ul class="nav fixed-top div-header justify-content-center">
+            <li class="nav-item">   
                 <a class="nav-link active item-navbar" aria-current="page" href="./index.html">¿Quiénes somos?</a>
             </li>
             <li class="nav-item">
@@ -43,40 +43,47 @@
                 </ul>
             </li>
         </ul>
-    </header>
+    </div>
 
     <!-- Main de la página -->
-    <div class="container-fluid">
+    <div class="container-fluid"> 
         <div class="row div-logo">
             <div class="col d-flex justify-content-center align-items-center ">
-                <img id="img-logo" src="./img/logo.jpg" alt="">
+                <img src="./img/fondo-logo.png" class="img-fluid" alt="...">
             </div>
         </div>
-        <div class="div-global">
+        <div class="row">
+            <div class="col-sm-12 col-5 display-4 div2-fondo">
+                    <p class="parrafo1"> TE INVITAMOS A QUE CONOZCAS <br> ROSO <br> Y PRUEBES EL ''REAL FOOD'' <br> MÁS
+                        RESPONSABLE CON NUESTRO PLANETA <br> ¿NOS AYUDAS A RECUPERARLO?</p>
+            </div>
+        </div>
+        <div class="row justify-content-center m-3">
+            <div class="col-md-4 col-sm-5 col-10 d-flex justify-content-center tit">
+                ¿Cómo surgió?
+            </div>
+        </div>
             <div class="row div1-main">
-                <div class=" col-sm-6 div1-fondo">
+                <div class="col-md-9 col-sm-9 col-12 h4 div1-fondo">
                     <p>La idea de este proyecto surgió a raíz de la pandemia.
                         Desde entonces, llevábamos 1 año siendo vegetarianos y estábamos deseando poder
                         salir de casa para descubrir nuevos lugares veganos.
                         En casa no parábamos de innovar y nos surgían cada semana nuevas recetas, por lo tanto, dijímos:
-                        <br>
+               
                         "¿Y por qué no enseñamos nuestras nuevas recetas a todo el mundo?"
                     </p>
                 </div>
-                <div class=" col-md-6"><img class="img-1" src="./img/fondo1-2.jpg" alt=""></div>
+                <div class="col-md-3 col-sm-5 col-5"><img src="./img/fondo1-2.jpg" class="img-fluid" alt="..."></div>
+                
             </div>
-            <div class="row div2-main">
-                <div class=" d-flex justify-content-center div-fondo1">
-                    <img class="img-2" src="./img/fondocc.jpg" alt="Fondo 1">
+            <div class="row justify-content-center m-3">
+                <div class="col-md-4 col-sm-5 col-10 d-flex justify-content-center tit">
+                    ¿Qué ofrecemos?
                 </div>
-                <div class="div2-fondo">
-                    <p class="parrafo1"> TE INVITAMOS A QUE CONOZCAS ROSO <br> Y PRUEBES EL ''REAL FOOD'' MÁS <br>
-                        RESPONSABLE CON NUESTRO PLANETA <br> ¿NOS AYUDAS A RECUPERARLO?</p>
-                </div>
-
             </div>
             <div class="row div3-main">
-                <div class="col-sm-6 div1-fondo">
+                <div class="col-md-3 col-sm-5 col-5"><img src="./img/pasta.jpg" class="img-fluid" alt="..."></div>
+                <div class="col-md-9 col-sm-9 col-9 h4 div1-fondo">
                     <p>Cuidamos y seleccionamos cada uno de los ingredientes, orgánicos siempre que sea posible y con el
                         mejor sabor.
                         <br>
@@ -88,10 +95,8 @@
                         veganas.
                     </p>
                 </div>
-                <div class="col-md-6"><img class="img-3" src="./img/fondo1-2.jpg" alt=""></div>
+                
             </div>
-
-        </div>
 
         <!-- Footer de la página -->
         <div class="row">
