@@ -20,6 +20,11 @@ body {
     margin-top: 2em;
 }
 
+.tarj-plato {
+    background-color: rgba(245, 234, 220, 0.486);
+    margin: 1em;
+}
+
 .tarj-plato:hover {
     box-shadow: -1px 1px 20px 3px;
 }
