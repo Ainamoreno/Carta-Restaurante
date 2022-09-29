@@ -6,3 +6,8 @@
     font-weight: 550;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.texto-reserva {
+    border: 1px solid;
+    padding: 0.5em;
+}
