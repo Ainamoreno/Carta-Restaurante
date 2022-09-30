@@ -1,6 +1,6 @@
 
 .div-logo {
-    margin: 8em;
+  margin: 8em 1em ;
 }
 
 .div-header {
@@ -75,6 +75,11 @@
     color:  black;
 }
 
+.pal-roso {
+    color: rgb(97, 79, 59);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 i{
     margin-right: 0.5em;
     color: black;
@@ -91,7 +96,33 @@ i{
 }
 
 .tit {
+    padding: 0.3em;
     font-size: 1.5em;
     border: 1px solid;
     margin-top: 3em;
+}
+
+/* Parallax */
+
+.nombre-roso {
+    width: 40vw;
+}
+
+.parallax-header {
+
+    background: #000;
+    background: linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.8)
+    ), url(../img/fondo-parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    ;
+}
+
+.header-content {
+    padding: 200px 0 250px 0;;
 }

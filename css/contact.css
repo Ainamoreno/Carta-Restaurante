@@ -11,3 +11,9 @@
     border: 1px solid;
     padding: 0.5em;
 }
+
+.div-reservar {
+    margin-top: 1.5em;
+    padding: 2em;
+    background-color: rgba(231, 204, 164, 0.493);
+}
