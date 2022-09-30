@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/contact.css">
     <script src="https://kit.fontawesome.com/6da7aeac50.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -24,14 +26,17 @@
         <div>
             <ul class="nav fixed-top div-header justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active item-navbar" aria-current="page" href="../index.html"><i class="fa-solid fa-house"></i>Home</a>
+                    <a class="nav-link active item-navbar" aria-current="page" href="../index.html"><i
+                            class="fa-solid fa-house"></i>Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link item-navbar" href="../pages/menu.html"><i class="fa-solid fa-utensils"></i>Carta</a>
+                    <a class="nav-link item-navbar" href="../pages/menu.html"><i
+                            class="fa-solid fa-utensils"></i>Carta</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle item-navbar" data-bs-toggle="dropdown"
-                        href="./pages/contact.html" role="button" aria-expanded="false"><i class="fa-solid fa-location-dot"></i>Ubicaciones y contacto</a>
+                        href="./pages/contact.html" role="button" aria-expanded="false"><i
+                            class="fa-solid fa-location-dot"></i>Ubicaciones y contacto</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="../pages/contact.html">Valencia</a></li>
                         <li><a class="dropdown-item" href="../pages/contact.html">Bilbao</a></li>
@@ -100,7 +105,7 @@
                         <p>BILBAO</p>
                     </figcaption>
                 </div>
-                
+
                 <div class="col div-img">
                     <img src="../img/interior1.jpg" class="img-thumbnail" alt="...">
                     <figcaption>
@@ -126,7 +131,7 @@
                     <div class="input-group mb-3">
                         <label class="input-group-text" for="inputGroupSelect01">Día</label>
                         <select class="form-select" id="inputGroupSelect01">
-                            <option selected>Elige...</option>
+                            <option class="option-elige" selected>Elige...</option>
                             <option value="2">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -198,6 +203,8 @@
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
                         </select>
                     </div>
                 </div>
@@ -218,15 +225,28 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col">
                     <div class="d-grid gap-2">
-                        <button class="btn btn-light" type="button">Reservar</button>
+                        <button id="btn-reservar" class="btn btn-light " type="button"
+                            onclick="mostrarToast()">Reservar</button>
                     </div>
                 </div>
             </div>
+            <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Reserva en Roso Vg</strong>
+                    <small class="text-muted">1 min ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"
+                        onclick="cerrarToast()"></button>
+                </div>
+                <div class="toast-body">
+                    Tu reserva se ha realizado con éxito! Te esperamos en nuestro restaurante :)
+                </div>
+            </div>
 
-            
+
         </div>
     </div>
 
