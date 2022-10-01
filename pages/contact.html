@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/contact.css">
     <script src="https://kit.fontawesome.com/6da7aeac50.js" crossorigin="anonymous"></script>
     <script src="jquery-3.6.0.min.js"></script>
-    <script src="../js/script.js"></script>
+    
 </head>
 
 <body>
@@ -129,8 +129,8 @@
             <div class="row">
                 <div class="col">
                     <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Día</label>
-                        <select class="form-select" id="inputGroupSelect01 input-dia">
+                        <label class="input-group-text" for="input-dia">Día</label>
+                        <select class="form-select" id="input-dia" onchange="validarFormulario()">
                             <option class="option-elige" selected>Elige...</option>
                             <option value="2">1</option>
                             <option value="2">2</option>
@@ -167,8 +167,8 @@
                 </div>
                 <div class="col">
                     <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Mes</label>
-                        <select class="form-select" id="inputGroupSelect01">
+                        <label class="input-group-text" for="input-mes">Mes</label>
+                        <select class="form-select" id="input-mes" onchange="validarFormulario()">
                             <option selected>Elige...</option>
                             <option value="0">Enero</option>
                             <option value="1">Febrero</option>
@@ -187,8 +187,8 @@
                 </div>
                 <div class="col">
                     <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Año</label>
-                        <select class="form-select" id="inputGroupSelect01">
+                        <label class="input-group-text" for="input-ano">Año</label>
+                        <select class="form-select" id="input-ano" onchange="validarFormulario()">
                             <option selected>Elige...</option>
                             <option value="1">2022</option>
                             <option value="2">2023</option>
@@ -197,8 +197,8 @@
                 </div>
                 <div class="col">
                     <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Personas</label>
-                        <select class="form-select" id="inputGroupSelect01">
+                        <label class="input-group-text" for="input-personas">Personas</label>
+                        <select class="form-select" id="input-personas" onchange="validarFormulario()">
                             <option selected>Elige...</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -210,8 +210,8 @@
                 </div>
                 <div class="col">
                     <div class="input-group mb-3">
-                        <label class="input-group-text" for="inputGroupSelect01">Hora</label>
-                        <select class="form-select" id="inputGroupSelect01">
+                        <label class="input-group-text" for="input-hora">Hora</label>
+                        <select class="form-select" id="input-hora" onchange="validarFormulario()">
                             <option selected>Elige...</option>
                             <option value="1">20:45</option>
                             <option value="2">21:00</option>
@@ -229,7 +229,7 @@
             <div class="row">
                 <div class="col">
                     <div class="d-grid gap-2">
-                        <button id="btn-reservar" class="btn btn-light " type="button"
+                        <button id="btn-reservar" class="btn btn-light " type="button" disabled
                             onclick="mostrarToast()">Reservar</button>
                     </div>
                 </div>
@@ -268,6 +268,7 @@
             </ul>
         </footer>
     </div>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
