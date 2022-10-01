@@ -12,3 +12,6 @@ function cerrarToast() {
     toast.className = "cerrar";
     toast.className = toast.className.replace("cerrar", "");
 }
+
+const inputDia = document.getElementById('input-dia');
+console.log(inputDia)

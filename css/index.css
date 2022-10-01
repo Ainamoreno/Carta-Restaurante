@@ -11,13 +11,14 @@
     background-color: white;
 }
 
-.div1-main, .div2-main, .div3-main {
+.div1-main {
+    padding: 1em;
+}
+
+.div2-main, .div3-main {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.div1-main, .div3-main {
     background-color: rgba(118, 167, 96, 0.301);
 }
 
@@ -39,23 +40,23 @@
 /* Estilos fondos y div-fondo */
 
 .div-slide {
-    margin: 2em 0 0 2em;
+    margin-top: 2em;
 }
 
 .div1-fondo {
-    display: flex;
-    align-items: center;
-    line-height: 2.5em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.div2-fondo {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.div2-fondo {
+    display: flex;
+    align-items: center;
+    line-height: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .parrafo1 {
