@@ -14,6 +14,8 @@ La página de ***'Home'*** incluye la historia de como surgió y la filosofía d
 La página de la ***'Carta'*** incluye todos los platos que el restaurante puede ofrecer (entrantes, primeros, segundos y smoothies).
 
 Y por último, la página de ***'Ubicaciones y contacto'*** aparecen las diferentes localidades donde se encuentra el restaurante y tenemos la opción de poder reservar.
+  
+Los iconos utilizados son de la página de **FontAwesome**.
 
 ## <div id='imagenes' > Imágenes
 ### Página Home:
