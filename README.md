@@ -27,6 +27,7 @@ Responsive:
 ![image](https://user-images.githubusercontent.com/110055279/193401023-74271e52-992c-44e5-b28b-f324d41af9e3.png)
 
 Responsive:
+  
 ![image](https://user-images.githubusercontent.com/110055279/193401373-7abd310e-6497-4c6b-987e-8719ac11b8f4.png)
 
 
@@ -35,3 +36,8 @@ Responsive:
 
 Efecto hover al pasar el ratón por encima de las imágenes para saber de donde es ese local:
 ![image](https://user-images.githubusercontent.com/110055279/193401074-c2f31764-e928-4681-b6b3-a7f8a0b28846.png)
+  
+  Responsive:
+  
+ ![image](https://user-images.githubusercontent.com/110055279/193401709-de41ab1a-d57e-42de-b426-48ba632541d6.png)
+
