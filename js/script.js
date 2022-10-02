@@ -25,7 +25,6 @@ function cerrarToast() {
 }
 
 function validarFormulario () {
-    console.log(inputDia.value)
     const esInvalid = [inputDia.value, inputMes.value, inputAno.value, inputPersonas.value, inputHora.value].includes(valorPorDefectoInput);
     document.getElementById('btn-reservar').disabled = esInvalid;
 }
