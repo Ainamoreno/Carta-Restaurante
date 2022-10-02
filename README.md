@@ -2,7 +2,7 @@
 ### Índice
 1. [Descripción](#descripcion)
 2. [Imágenes](#imagenes)
-3. [Detalles](#detalles)
+3. [Funcionalidades](#funciones)
 
 ##  <div id = "descripcion"> Descripción
 Consta de tres páginas (Home, carta y, ubicaciones y contacto). Es un proyecto realizado con **HTML** y **CSS** principalmente, también contiene un pequeño código de **JS**. 
@@ -43,3 +43,12 @@ Efecto hover al pasar el ratón por encima de las imágenes para saber de donde 
   
  ![image](https://user-images.githubusercontent.com/110055279/193401709-de41ab1a-d57e-42de-b426-48ba632541d6.png)
 
+##  <div id = "funciones"> Funcionalidades
+
+En la página de 'Ubicaciones y contacto' hay un apartado de reservas, en el cual, se puede seleccionar fecha, hora y cantidad de personas.
+![image](https://user-images.githubusercontent.com/110055279/193460814-32f39532-3ffa-4a6a-ba0d-664d3fceb175.png)
+
+Al hacerle click a 'Reservar', aparece un mensaje de que se ha realizado correctamente.
+![image](https://user-images.githubusercontent.com/110055279/193460892-af7e95a3-7d5f-4363-9968-54923c99d616.png)
+
+Hasta no haber rellenado los campos el botón estará desactivado y al realizarse la reserva, los inputs volverán a su estado incial.
